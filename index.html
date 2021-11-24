@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +9,58 @@
     <link rel="shortcut icon" href="london.png" type="image/x-icon">
 
     <style>
-#cabecalho{
-    height: 200px;
-    background-color: #c4c4c4;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,900;1,100;1,200;1,600;1,900&display=swap');
 
-#menu-de-navegacao{
-    height: 70px;
-    background-color: #B4B4B4;
-}
+        #cabecalho {
+            height: 200px;
+            background-color: #c4c4c4;
+        }
 
-#conteudo-principal{
-    height: 537px; background-color: #D4D4D4;
-}
+        #menu-de-navegacao {
+            height: 70px;
+            background-color: #B4B4B4;
+            text-align: center;
+        }
 
-#rodape{
-    height: 150px;
-    background-color: #A4A4A4;
-}
+        #conteudo-principal {
+            height: 537px;
+            background-color: #D4D4D4;
+        }
 
-#titulo{
-    font-size: 64px;
-    color: #9200AA;
-    font-weight: 700;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+        #rodape {
+            height: 150px;
+            background-color: #A4A4A4;
+        }
 
+
+        #titulo {
+            font-size: 64px;
+            color: #9200AA;
+            font-weight: 400;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .item-menu {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 16px;
+            color: tomato;
+        }
     </style>
 </head>
+
 <body>
     <header id="cabecalho"></header>
     <h1 id="titulo">Cidades</h1>
-    <nav id="menu-de-navegacao"></nav>
+    <nav id="menu-de-navegacao">
+        <a href="index.html" class="item-menu">LONDRES</a> -
+        <a href="paris.html" class="item-menu">PARIS</a> -
+        <a href="tokyo.html" class="item-menu">TOKYO</a> 
+    </nav>
     <main id="conteudo-principal"></main>
-    <footer id="rodape"></footer>    
+    <footer id="rodape"></footer>
 </body>
+
 </html>
